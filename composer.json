@@ -1,13 +1,16 @@
 {
     "name": "jiangqingfeng/redislock",
     "require": {
-        
+
     },
     "license": "MIT",
-    "authors": [
-        {
-            "name": "jiangqingfeng",
-            "email": "898602583@qq.com"
+    "authors": [{
+        "name": "jiangqingfeng",
+        "email": "898602583@qq.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "redislock\\": "/src"
         }
-    ]
+    }
 }
