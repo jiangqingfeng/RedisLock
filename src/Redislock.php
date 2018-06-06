@@ -1,6 +1,7 @@
 ﻿<?php
-
-class Redis_lock
+namespace jiangqingfeng;
+//
+class Redislock
 {
 	//连接redis
     public static function getRedis()
